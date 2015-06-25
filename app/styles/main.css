@@ -15,12 +15,12 @@ body {
 }
 
 .btn-add {
-  bottom: 0;
+  bottom: 15px;
 }
 
 .fab-wrapper {
   position: absolute;
-  right: 70px;
+  right: 90px;
 }
 
 .max-width {
