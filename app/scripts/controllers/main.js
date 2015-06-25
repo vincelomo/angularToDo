@@ -9,7 +9,9 @@
  */
 angular.module('angularToDoApp')
 	.controller('MainCtrl', ['$scope','$mdSidenav', function ($scope, $mdSidenav) {
-	  	this.toggleSidenav = function(menuId) {
-		    $mdSidenav(menuId).toggle();
-		};
+		$scope.awesomeThings = [
+			'HTML5 Boilerplate',
+			'AngularJS',
+			'Karma'
+	    ];
 	}]);

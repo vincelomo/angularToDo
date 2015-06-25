@@ -7,6 +7,7 @@
 
 body {
   padding: 0;
+  height: 100%;
 }
 
 .fixed {
@@ -22,7 +23,10 @@ body {
   right: 70px;
 }
 
-.page {
-  position: relative;
-  top: 64px;
+.max-width {
+  max-width: 650px;
+}
+
+.min-width {
+  min-width: 300px;
 }
